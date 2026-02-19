@@ -4,8 +4,8 @@ import { ArticlesProvider } from './context/ArticlesContext';
 import ProtectedRoute from './components/ProtectedRoute';
 import Navigation from './components/Navigation';
 import Login from './components/Login';
-import Home from './pages/Home';
-import SavedArticles from './pages/SavedArticles';
+import Home from './pages/HomePage';
+import SavedArticles from './pages/SavedArticlesPage';
 import AdminPage from './pages/AdminPage';
 
 function App() {
