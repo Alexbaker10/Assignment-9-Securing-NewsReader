@@ -3,6 +3,10 @@ import { useAuth } from './AuthContext';
 
 const ArticlesContext = createContext();
 
+export function useArticles() {
+  return useContext(ArticlesContext);
+}
+
 export function ArticlesProvider({ children }) {
   const { user } = useAuth();
   const [savedArticlesByUser, setSavedArticlesByUser] = useState(() => {
